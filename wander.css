@@ -1,20 +1,14 @@
 ::selection {
   background: indigo;
-  color: pink;
+  color: aquamarine;
 }
 
 :root {
-  background: violet;
-  color: #212;
+  background-color: aquamarine;
+  background-image: radial-gradient(turquoise, chartreuse, aquamarine);
+  color: #415;
 }
 
 :any-link {
   color: indigo;
-}
-
-@media (prefers-contrast: more) {
-  :root {
-    background: peachpuff;
-    color: #201;
-  }
 }

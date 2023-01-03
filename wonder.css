@@ -1,20 +1,14 @@
 ::selection {
-  background: hotpink;
-  color: black;
+  background: aquamarine;
+  color: purple;
 }
 
 :root {
-  background: #212;
-  color: violet;
+  background-color: black;
+  background-image: radial-gradient(indigo, #415, #510);
+  color: turquoise;
 }
 
 :any-link {
-  color: violet;
-}
-
-@media (prefers-contrast: more) {
-  :root {
-    background: #201;
-    color: peachpuff;
-  }
+  color: aquamarine;
 }
